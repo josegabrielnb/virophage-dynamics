@@ -3,6 +3,7 @@ library(ggplot2)
 library(mgcv)
 library(gridExtra)
 
+#Change to current working directory
 setwd("~/Desktop/JoseGabriel/PLoS_CompBio/r_figures/")
 
 dynamics_summary <- read_csv("dynamics_summary_100replicates.csv")
